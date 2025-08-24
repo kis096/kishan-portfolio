@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Favicons -->
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    <!-- ============================================= -->
+    <!-- META TAGS & BROWSER CONFIGURATION             -->
+    <!-- ============================================= -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kishan Rana's personal portfolio. A creative Front-End Developer specializing in React and WordPress.">
+    <meta name="author" content="Kishan Rana">
+
+    <!-- Page Title -->
+    <title>Kishan Rana | Front-End Developer</title>
+
+    <!-- ============================================= -->
+    <!-- EXTERNAL STYLESHEETS                          -->
+    <!-- ============================================= -->
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <!-- Local Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============================================= -->
+    <!-- HEADER & NAVIGATION                           -->
+    <!-- ============================================= -->
+    <header>
+        <nav class="container">
+            <div class="logo">Kishan RANA</div>
+            <ul>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+            <a href="https://wa.me/918287990665?text=Hello%20Kishan,%20I'm%20interested%20in%20your%20services." target="_blank" class="btn btn-primary">
+                <i class="fab fa-whatsapp"></i> Hire Me
+            </a>
+        </nav>
+    </header>
+
+    <!-- ============================================= -->
+    <!-- MAIN CONTENT WRAPPER                          -->
+    <!-- ============================================= -->
+    <main>
+
+        <!-- SECTION 1: HERO -->
+        <section id="hero">
+            <div class="container hero-content">
+                <!--
+                    NOTE: The hero section's HTML is structured to allow for easy reordering on mobile using CSS Flexbox `order`.
+                    On mobile, the order will be: intro-text -> hero-image -> hero-text-main.
+                    On desktop, CSS Grid is used to create the side-by-side layout.
+                -->
+                <p class="intro-text">Hello, I'm Kishan Rana</p>
+                
+                <div class="hero-image">
+                    <img src="assets/main.jpg" alt="A portrait of Kishan Rana, Front-End Developer">
+                </div>
+                
+                <div class="hero-text-main">
+                    <h1>A Creative Front-End <span class="typewriter"></span></h1>
+                    <p class="description">I build beautiful and functional web applications that provide real-world solutions and exceptional user experiences.</p>
+                    <div class="hero-buttons">
+                        <a href="tel:+918287990665" class="btn btn-secondary">
+                            <i class="fas fa-phone"></i> Call Me
+                        </a>
+                        <a href="https://wa.me/918287990665?text=Hello%20Kishan,%20I'm%20interested%20in%20your%20services." target="_blank" class="btn btn-primary">
+                            <i class="fab fa-whatsapp"></i> Hire Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: SKILLS / DEVELOPMENT PROCESS -->
+        <section id="skills" class="dark-section">
+            <div class="container">
+                <h2 class="section-title">My Development <span>Process</span></h2>
+                <div class="process-timeline">
+                    <!-- Step 1 -->
+                    <div class="process-step animate-on-scroll">
+                        <div class="process-graphic"><div class="graphic-circle"><span class="graphic-number">1</span></div></div>
+                        <div class="process-text">
+                            <h3>Strategic Foundation</h3>
+                            <p>I start with core requirements and scalable architecture using <strong>React.js</strong>, <strong>Vite</strong>, and backend services like <strong>Firebase</strong> or <strong>AWS</strong>.</p>
+                        </div>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="process-step reverse animate-on-scroll">
+                        <div class="process-graphic"><div class="graphic-circle"><span class="graphic-number">2</span></div></div>
+                        <div class="process-text">
+                            <h3>UI/UX & Frontend</h3>
+                            <p>I build pixel-perfect interfaces with <strong>Tailwind CSS</strong> and <strong>Material UI</strong>, managing state efficiently with <strong>Redux</strong> or <strong>Context API</strong>.</p>
+                        </div>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="process-step animate-on-scroll">
+                        <div class="process-graphic"><div class="graphic-circle"><span class="graphic-number">3</span></div></div>
+                        <div class="process-text">
+                            <h3>CMS & E-Commerce</h3>
+                            <p>I leverage <strong>WordPress</strong> with <strong>Elementor</strong> for custom designs and <strong>WooCommerce</strong> for robust, SEO-optimized e-commerce solutions.</p>
+                        </div>
+                    </div>
+                    <!-- Step 4 -->
+                    <div class="process-step reverse animate-on-scroll">
+                        <div class="process-graphic"><div class="graphic-circle"><span class="graphic-number">4</span></div></div>
+                        <div class="process-text">
+                            <h3>Testing & Deployment</h3>
+                            <p>Rigorous testing with <strong>Chrome DevTools</strong> and <strong>Jest</strong> ensures a flawless experience, with version control managed via <strong>Git & GitHub</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: SERVICES -->
+        <section id="services">
+            <div class="container">
+                 <h2 class="section-title">My <span>Services</span></h2>
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card animate-on-scroll">
+                        <div class="icon-container"><i class="fas fa-code"></i></div>
+                        <h3>React Development</h3>
+                        <p>Building scalable and high-performance web applications with React.js, Redux, and modern JavaScript.</p>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="service-card animate-on-scroll">
+                        <div class="icon-container"><i class="fab fa-wordpress"></i></div>
+                        <h3>WordPress Development</h3>
+                        <p>Customizing WordPress themes and plugins to create feature-rich, SEO-friendly websites for clients.</p>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="service-card animate-on-scroll">
+                        <div class="icon-container"><i class="fas fa-palette"></i></div>
+                        <h3>UI/UX Implementation</h3>
+                        <p>Translating design mockups into pixel-perfect, responsive, and interactive user interfaces with HTML, CSS & JS.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: WORK EXPERIENCE -->
+        <section id="experience" class="dark-section">
+            <div class="container">
+                <h2 class="section-title">My Work <span>Experience</span></h2>
+                <div class="timeline">
+                    <!-- Experience 1 -->
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-content">
+                            <h3>Web Developer</h3>
+                            <p class="company">Social Emergers | May 2025 - Present</p>
+                            <p>Leading end-to-end WordPress projects, from custom theme development and plugin integration to domain setup, hosting, and SEO optimization.</p>
+                        </div>
+                    </div>
+                    <!-- Experience 2 -->
+                     <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-content">
+                            <h3>Front End Developer</h3>
+                            <p class="company">Innovative Marketing Services | Nov 2024 - May 2025</p>
+                            <p>Developed and customized WordPress websites using PHP, JavaScript, and Elementor. Integrated plugins like WooCommerce and Yoast SEO.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: REACT PORTFOLIO -->
+        <section id="portfolio">
+             <div class="container">
+                <h2 class="section-title">My React.js <span>Portfolio</span></h2>
+                <div class="portfolio-grid">
+                    <!-- Project 1 -->
+                    <div class="portfolio-card light-theme-card animate-on-scroll">
+                        <img src="assets/code.jpg" alt="Web-Based Code Editor">
+                        <div class="card-content">
+                            <h4>WebScribe - Code Editor</h4>
+                            <p>An intuitive online code editor built with React and CodeMirror, featuring real-time syntax highlighting for HTML, CSS, and JS.</p>
+                            <div class="project-tags"><span>React.js</span><span>CodeMirror</span><span>Firebase</span></div>
+                            <div class="project-links"><a href="https://webscribe-4ba5c.web.app" class="btn-link" target="_blank">Live Demo <i class="fas fa-external-link-alt"></i></a><a href="https://github.com/kis096" class="btn-link" target="_blank">Source Code <i class="fab fa-github"></i></a></div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="portfolio-card light-theme-card animate-on-scroll">
+                        <img src="assets/child-parent-suffering-from-social-media-addiction.jpg" alt="ChatterUp Real-time Chat App">
+                         <div class="card-content">
+                            <h4>ChatterUp - Real-time Chat</h4>
+                            <p>A fully responsive chat application using React.js and Firebase for real-time messaging, with a sleek UI crafted with SCSS.</p>
+                            <div class="project-tags"><span>React.js</span><span>Firebase</span><span>SCSS</span></div>
+                            <div class="project-links"><a href="https://chatterup-be4db.web.app" class="btn-link" target="_blank">Live Demo <i class="fas fa-external-link-alt"></i></a><a href="https://github.com/kis096" class="btn-link" target="_blank">Source Code <i class="fab fa-github"></i></a></div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="portfolio-card light-theme-card animate-on-scroll">
+                         <img src="assets/random.jpg" alt="Random User Generator">
+                         <div class="card-content">
+                            <h4>Random User Generator</h4>
+                            <p>A web app that demonstrates API integration by fetching and displaying user data from a third-party API in a clean, card-based UI.</p>
+                             <div class="project-tags"><span>React.js</span><span>REST API</span><span>CSS3</span></div>
+                            <div class="project-links"><a href="https://randomuser-bdfe0.web.app" class="btn-link" target="_blank">Live Demo <i class="fas fa-external-link-alt"></i></a><a href="https://github.com/kis096" class="btn-link" target="_blank">Source Code <i class="fab fa-github"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: WORDPRESS PORTFOLIO -->
+        <section id="wordpress-portfolio" class="dark-section">
+            <div class="container">
+                <h2 class="section-title">My WordPress <span>Development</span></h2>
+                <div class="portfolio-grid">
+                    <!-- Project 4 -->
+                    <div class="portfolio-card dark-theme-card animate-on-scroll">
+                        <img src="assets/gocap.png" alt="Capital Growth Mastery Website">
+                        <div class="card-content">
+                            <h4>Capital Growth Mastery</h4>
+                            <p>A lead-generation landing page for a financial services company, optimized for conversions with a clean layout and clear call-to-actions.</p>
+                            <div class="project-tags"><span>WordPress</span><span>Lead Generation</span><span>Elementor</span></div>
+                            <div class="project-links"><a href="https://go.capitalgrowthmastery.com/nyheim_cohen_bp-page" class="btn-link" target="_blank">View Live Site <i class="fas fa-external-link-alt"></i></a></div>
+                        </div>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="portfolio-card dark-theme-card animate-on-scroll">
+                        <img src="assets/ecomm.png" alt="Elegant Exclusives Website">
+                        <div class="card-content">
+                            <h4>Elegant Exclusives</h4>
+                            <p>A sophisticated e-commerce website for a luxury goods brand, featuring a clean design, product showcases, and seamless navigation.</p>
+                            <div class="project-tags"><span>WordPress</span><span>WooCommerce</span><span>Luxury Brand</span></div>
+                             <div class="project-links"><a href="https://elegantexclusives.com/home2/" class="btn-link" target="_blank">View Live Site <i class="fas fa-external-link-alt"></i></a></div>
+                        </div>
+                    </div>
+                    <!-- Project 6 -->
+                    <div class="portfolio-card dark-theme-card animate-on-scroll">
+                        <img src="assets/carig.png" alt="Craig's Solo Ads Website">
+                        <div class="card-content">
+                            <h4>Craig's Solo Ads</h4>
+                            <p>A direct-to-consumer sales page for a logistics and shipping service, designed for clarity and ease of use to streamline customer orders.</p>
+                             <div class="project-tags"><span>WordPress</span><span>Sales Funnel</span><span>Custom Theme</span></div>
+                             <div class="project-links"><a href="https://craigssoloads.com/" class="btn-link" target="_blank">View Live Site <i class="fas fa-external-link-alt"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7: CONTACT -->
+        <section id="contact">
+            <div class="container">
+                <div class="contact-wrapper animate-on-scroll">
+                    <div class="contact-text">
+                        <h2 class="section-title">Have an Awesome Project Idea? <span>Let's Discuss.</span></h2>
+                        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Let's connect and make something amazing together.</p>
+                        <a href="mailto:ranakishan3050@gmail.com" target="_blank" class="btn btn-primary">Start a Conversation</a>
+                    </div>
+                    <div class="contact-visual">
+                        <img src="assets/main.jpg" alt="Kishan Rana smiling">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================================= -->
+    <!-- FOOTER                                        -->
+    <!-- ============================================= -->
+    <footer class="dark-section">
+        <div class="container">
+            <div class="footer-content">
+                <!-- About Column -->
+                <div class="footer-about">
+                    <h3 class="logo">Kishan.RANA</h3>
+                    <p>Front-End Developer focused on creating engaging and user-friendly web experiences.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/kis096" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/kishan-rana-12983525b/" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <!-- Quick Links Column -->
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="assets/resume.pdf" download>Resume</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Info Column -->
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> ranakishan3050@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Delhi, India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kishan Rana. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- ============================================= -->
+    <!-- UTILITIES                                     -->
+    <!-- ============================================= -->
+    <!-- Back to Top Button -->
+    <a href="#hero" class="back-to-top-btn" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- ============================================= -->
+    <!-- JAVASCRIPT                                    -->
+    <!-- ============================================= -->
+    <script src="script.js"></script>
+
+</body>
+</html>
